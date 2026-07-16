@@ -1,7 +1,7 @@
 import { Component, signal } from '@angular/core';
 //import { RouterOutlet } from '@angular/router'; //remove a importação de RouterOutlet, pois não é necessario no momento;
-import {Produto} from './components/produto/produto';//importando a classe do produto do arquivo produto.ts para produto/produto
-import{ListaProdutos} from './components/lista-produtos/lista-produtos';//importando a classe do produto do arquivo produto.ts para produto/produto
+//import {Produto} from './components/produto/produto';//importando a classe do produto do arquivo produto.ts para produto/produto
+import{ListaProdutos} from './features/produtos/lista-produtos/lista-produtos';//importando a classe do produto do arquivo produto.ts para produto/produto
 @Component({
   selector: 'app-root',
   imports: [ListaProdutos],
